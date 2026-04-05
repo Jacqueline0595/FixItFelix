@@ -12,7 +12,7 @@ public class Game {
         this.root = root;
         felix = new Entity("/sprites/Felix.png", 100, 100);
 
-        root.getChildren().add(felix.getSprite());
+        root.getChildren().add(felix.getSprite()); // ola
     }
 
     public void update()
