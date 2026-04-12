@@ -8,7 +8,9 @@ public class Game {
 
     public Game(Pane root)
     {
-        felix = new Entity("/sprites/Felix.png", 100, 100);
+        felix = new Entity("/sprites/FelixSheets.png", 100, 100);
+
+        felix.setAnimation(0, 30, 40, 70, 4);
 
         root.getChildren().add(felix.getSprite());
     }
