@@ -13,10 +13,11 @@ public class Entity {
     protected double offsetY = 30;
     protected double frameWidth = 40;
     protected double frameHeight = 70;
+
     protected int maxFrames = 4;
 
     protected double frameTimer = 0;
-    protected double frameDelay = 25; // velocidad (más bajo = más rápido)
+    protected double frameDelay = 30; // velocidad (más bajo = más rápido)
 
     protected double x;
     protected double y;
