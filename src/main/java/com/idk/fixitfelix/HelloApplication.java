@@ -30,6 +30,12 @@ public class HelloApplication extends Application {
         ImageView img1 = new ImageView(inicio1);
         ImageView img2 = new ImageView(inicio2);
 
+        // Fondo y botones
+        Image background = new Image( Objects.requireNonNull( getClass().getResourceAsStream("/Background.png" ) ) );
+        Image startButton = new Image( Objects.requireNonNull( getClass().getResourceAsStream("/MenuButtons/Start.png" ) ) );
+        Image helpButton = new Image( Objects.requireNonNull( getClass().getResourceAsStream("/MenuButtons/Help.png" ) ) );
+        Image exitButton = new Image( Objects.requireNonNull( getClass().getResourceAsStream("/MenuButtons/Exit.png" ) ) );
+
         img1.setLayoutX(0);
         img1.setLayoutY(0);
 
